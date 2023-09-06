@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/content-v2-blog/",
   },
+  ssr:true,
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   content: {
     // https://content.nuxtjs.org/api/configuration
